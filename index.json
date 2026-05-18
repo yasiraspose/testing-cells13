@@ -20,6 +20,11 @@
       "title": "Load an XLSX workbook and convert it to a high\u2011resolution PDF file."
     },
     {
+      "category": "manage-workbook",
+      "file": "load-an-xlsx-workbook-from-a-file-stream-and-enable-automatic-formula-calculation.cs",
+      "title": "Load an XLSX workbook from a file stream and enable automatic formula calculation."
+    },
+    {
       "category": "workbook-merger",
       "file": "add-a-timestamp-worksheet-indicating-the-exact-date-and-time-of-the-merge-operation.cs",
       "title": "Add a timestamp worksheet indicating the exact date and time of the merge operation."
