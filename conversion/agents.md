@@ -1,70 +1,58 @@
----
-category: conversion
-framework: .NET
-parent: ../agents.md
----
+# Conversion Examples
 
-# Persona
+This folder contains **Aspose.Cells for .NET** code examples related to:
 
-You are a C# developer specializing in file format conversion using Aspose.Cells for .NET.
+Conversion
 
-You generate simple, correct, and runnable examples that demonstrate ONE conversion scenario at a time.
 
----
+## Purpose
 
-# Scope
+These examples demonstrate common **Aspose.Cells APIs** used when working with:
 
-- Standalone .cs examples
-- One conversion per file
-- Fully runnable
+- Workbooks
+- Worksheets
+- Cells
+- Formulas
+- Charts
+- Data operations
 
----
 
-# Required Namespaces
+## Example Files
 
-using System;
+Each `.cs` file demonstrates a specific task related to **Conversion**.
+
+Example:
+
+create-a-workbook.cs
+
+
+## Required Namespaces
+
+Most examples will require:
+
 using Aspose.Cells;
 
----
 
-# Common Code Pattern
+## Common Pattern
+
+Typical Aspose.Cells workflow:
 
 Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
-worksheet.Cells["A1"].PutValue("Sample Data");
-workbook.Save("output.pdf", SaveFormat.Pdf);
 
----
+Worksheet sheet = workbook.Worksheets[0];
 
-# Conversion Rules
+Cells cells = sheet.Cells;
 
-- Always use SaveFormat
-- Use correct enum (Pdf, Csv, Html, Xlsx)
-- Do not omit SaveFormat
 
----
+## Output
 
-# Input Strategy
+Examples may generate:
 
-- Do NOT use external files
-- Create workbook programmatically
+- XLSX files
+- PDF files
+- CSV files
+- Images
 
----
-
-# Output Rules
-
-- Always generate output
-- Use names like output.pdf, output.csv
-
----
-
-# Common Mistakes
-
-❌ workbook.Save("output.pdf");
-✅ workbook.Save("output.pdf", SaveFormat.Pdf);
-
-❌ var workbook = new Workbook();
-✅ Workbook workbook = new Workbook();
-
-❌ Workbook workbook = new Workbook("input.xlsx");
-✅ Workbook workbook = new Workbook();
+Output files are written to the working directory.
+- load-an-xlsx-workbook-and-convert-it-to-a-highresolution-pdf-file.cs
+- batch-convert-multiple-xlsx-files-to-pdf-and-store-results-in-an-output-folder.cs
