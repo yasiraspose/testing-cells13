@@ -13,6 +13,35 @@
       "category": "conversion",
       "file": "load-an-xlsx-workbook-and-convert-it-to-a-highresolution-pdf-file.cs",
       "title": "Load an XLSX workbook and convert it to a high\u2011resolution PDF file."
+    },
+      "category": "workbook-merger",
+      "file": "add-the-library-reference-to-a-net-project-via-nuget-before-implementing-merge-logic.cs",
+      "title": "Add the library reference to a .NET project via NuGet before implementing merge logic."
+    },
+    {
+      "category": "workbook-merger",
+      "file": "copy-specific-worksheets-from-source-workbooks-into-the-target-workbook-using-worksheetcopy-method.cs",
+      "title": "Copy specific worksheets from source workbooks into the target workbook using Worksheet.Copy method."
+    },
+    {
+      "category": "workbook-merger",
+      "file": "create-a-console-application-project-in-visual-studio-to-host-the-workbook-merging-code.cs",
+      "title": "Create a console application project in Visual Studio to host the workbook merging code."
+    },
+    {
+      "category": "workbook-merger",
+      "file": "load-large-xls-files-with-cellshelpermergefiles-by-providing-an-array-of-file-paths-and-output-path.cs",
+      "title": "Load large XLS files with CellsHelper.MergeFiles by providing an array of file paths and output path."
+    },
+    {
+      "category": "workbook-merger",
+      "file": "load-source-xls-workbooks-using-new-workbookfilepath-for-each-file-to-be-merged.cs",
+      "title": "Load source XLS workbooks using new Workbook(filePath) for each file to be merged."
+    },
+    {
+      "category": "workbook-merger",
+      "file": "use-workbookcombine-to-merge-two-or-more-workbooks-when-file-sizes-are-moderate.cs",
+      "title": "Use Workbook.Combine to merge two or more workbooks when file sizes are moderate."
     }
   ]
 }
